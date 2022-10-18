@@ -1,0 +1,380 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background-color:  #f8f8f8;
+}
+
+
+@font-face{
+  font-family:'Ubuntu';
+  
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;  
+  color: #FFFFFF;  
+  font-size: 13px;
+  line-height: 16px;
+  text-align: left;
+}
+
+section{ 
+padding: 5rem 0;
+}
+
+section .color{
+background-color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Ubuntu';
+   word-break: break-word;
+}
+.clearfix {
+    overflow: auto;
+    position: relative;
+}
+.clearfix::after {
+  display: block;
+  clear: both;
+  /*content: "";*/
+}
+hr {
+  
+   border: solid 0.8px #d8d8d8;
+}
+
+div{
+  word-break: break-word;
+}
+#footer{
+  margin-top: 2%;
+  padding: 1% 0;
+  background-color:#214498;
+  color: white;
+
+}
+a:hover {text-decoration:none;}
+h6 a{
+  border:none;
+  /*color: white;*/
+   padding: 5px 2px;
+   transition: 0.3s;
+   margin: 4px 2px;
+
+}
+ h6 a:hover{
+  
+  /*color: white;*/
+  text-decoration:underline;
+}
+
+
+
+.gbutama {
+  /*position: absolute;*/
+  /*max-width: 100%;*/
+}
+.boxlayanankami{ 
+  display:inline-block;  
+  background-image: linear-gradient(90deg, #46074E 0%, rgba(25, 123, 208, 0) 100%);
+  border-radius: 6px;  
+  width: 330px;
+  height: 270px;  
+  margin: 15px 0;
+
+
+}
+ .title-nav{
+  /*width: 100px;*/
+  /*height: 16px;*/
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1e1e1e;
+  }
+   .modal-dialog {
+    margin: 5px auto;
+
+}
+
+/*//removing extra padding from the body*/
+.modal-body {
+    position: relative;
+    padding: 0 0;
+}
+
+.boxlayanankami2{ 
+  display:inline-block;  
+  background-image: linear-gradient(90deg, #46074E 0%, rgba(25, 123, 208, 0) 100%);
+  border-radius: 6px;
+  width: 280px;
+  height: 158px;
+  margin: 20px 20px 0;
+}
+
+.efek{
+  background-image: linear-gradient(90deg, #46074E 0%, rgba(25, 123, 208, 0) 100%);
+}
+.boxselengkapnya{
+  position: absolute;
+  background-image: linear-gradient(90deg, #46074E 0%, rgba(25, 123, 208, 0.8) 100%);
+  box-shadow: 10px 10px 4px 0 rgba(0, 0, 0, 0.2);
+  width: 37%;
+  height: auto;
+  /*z-index: 100;*/
+  left: 5%;
+}
+.rectselengkapnya{
+  background: none;
+  border: 1px solid #FFFFFF;
+  border-radius: 22.5px;
+  width: 190px;
+  height: auto;
+  
+
+}
+.boxkonseling{
+  position: absolute;
+background-image: linear-gradient(90deg, #46074E 0%, rgba(25, 123, 208, 0.8) 100%);
+  border-radius: 6px;
+  width: 60%;
+  height: auto;
+  left:20%;
+  
+}
+.reckonseling{
+  background: none;
+ border: 1px solid #FFFFFF;
+  border-radius: 22.5px;
+  width: 230px;
+  height: 45px;
+}
+.daftar {
+  background:none;
+  border: 2px solid #FFFFFF;
+  border-radius: 20px;
+  width: 140px;
+  height: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition:  300ms;
+  opacity: 1;
+  
+}
+
+.kotakartikelhome{
+  background-size: 100%;
+  border-radius: 4px;
+}
+
+
+.column {
+  float: left;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.kotakartikelainnya{
+  border: 1px solid #46074E;
+  border-radius: 22.5px;
+  width: 200px;
+  height: 45px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.kotakvisimisi{
+  display:inline-block;  
+  /*background-size: 100%;*/
+  border-radius: 6px;
+  width: 100%;
+  margin: 15px 0;
+}
+.kotakartikelatas{
+ display:inline-block;  
+  border-radius: 4px;
+  width: 100%;
+  height: 300px;
+  padding: 5%;
+  /*width: 100%;*/
+  margin: 5px 0; 
+}
+
+.kotakartikelbawah{
+   display:inline-block;  
+  background-size: 100%;
+  border-radius: 4px;
+  width: 100%;
+  /*width: 310px;*/
+  height: 160px;
+}
+.kotakhubkami{
+   
+  border-radius: 22.5px;
+  width: 55%;
+  height: 20%;
+  
+}
+.kotakartikel{
+  margin-left: 26%;
+}
+.tipsartikel{
+font-size: 26px;
+
+line-height: 36px;
+width: 350px;
+text-align: left;
+color: #FFFFFF;
+display: block;
+
+}
+.pentingartikel{
+  color: #FFFFFF;             
+  font-size: 36px;
+  width:  100%;
+  line-height: 43px;              
+  text-align: left;
+  display: block;
+}
+.judulisiartikel{
+ color: #000000;
+  width: 60%;
+  font-size: 24px;
+  line-height: 34px;             
+  text-align: left;
+  display: block; 
+}
+.tanggalartikel{
+  color: #979797;
+  font-family: Ubuntu;
+  font-size: 13px;
+  line-height: 36px;
+  width: 750px;
+  text-align: left;
+}
+
+.boxartikelatas{
+  background-size: 100%;
+  border-radius: 4px;
+  width: 360px;
+  height: 202px;
+}
+.isiartikel{
+  color: #979797;
+  font-family: Ubuntu;
+  font-size: 13px;
+  line-height: 36px;
+  width: 80%;
+  margin-top: 5%;
+  text-align: justify;
+}
+
+.boxartikelbawah{
+  background-size: 100%;
+  border-radius: 4px;
+  width: 285px;
+  height: 160px;
+}
+
+.pagination {
+  list-style: none;
+  padding: 8px;
+  text-align: center;
+}
+.pagination a, .pagination li {
+  border-radius: 50%;
+  color: #212121;
+  display: inline-block;
+  margin: 0;
+  transition: .15s ease-in;
+  cursor: pointer;
+  text-decoration: none;
+}
+.pagination a:hover {
+  background: rgba(63, 81, 181, 0.12);
+}
+.pagination .pagination-number,
+.pagination .pagination-arrow i {
+  vertical-align: middle;
+}
+.pagination .pagination-number {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+   border-radius: 22px;
+  line-height: 24px;
+  width: 30px;
+  height: 30px;
+  padding: 4px 0;
+}
+.pagination .pagination-number.current-number {
+  background: linear-gradient(90deg, rgba(70, 7, 78, 0.8) 0%, rgba(25, 123, 208, 0.8) 100%);;
+  color: #fff;
+}
+.pagination .pagination-arrow i {
+  font-size: 30px;
+  padding: 4px;
+}
+
+
+@media screen and (min-width: 1200px) {
+  
+.img{
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+
+@media screen and (max-width: 768px){
+ .col-s-12 {width: 100%;} 
+}
+
+@media screen and (max-width: 768px){
+ .boxselengkapnya {margin-top: -80%;} ,img{max-height:500px ;}
+}
+
+.w3-input{float:left;display:block;background-color:  #f8f8f8;border:none; border-bottom:2px solid #ccc;width:90%;padding: 0 10px;}
+  .logininput{float:left;padding-top:8px;display:block;border:none;border-bottom:1px solid #ccc;width:80%;height: 20%}
+  .logininput2{float:center; padding-top:8px;display:block;border:none;border-bottom:1px solid #ccc;width:40%;height: 10%}
+  .input  {display: block;
+    margin: auto auto;
+    width: 80%;
+    height: 20%;
+    margin-bottom: 2em;
+    padding: .5em 0;
+    border: none;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 1.25em;
+    color: #757575;
+    &:focus {
+      outline: none;
+    }
+  
+.title2{
+  font-size: 14px;
+  width: 100%;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 5%;
+  }
